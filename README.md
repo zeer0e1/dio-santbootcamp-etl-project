@@ -8,10 +8,10 @@
 O cliente possue 2 arquivos em formatos CSV e precisa que seja gerado um terceiro aquivo unindo esses arquivos.
 
 
-[Users]('/data/destinys.csv')
+##### Users
 > Nesse arquivo temos os usuários e os IDs das cidades que eles vão viajar
 
-[Destiny]('/data/destinys.csv')
+##### Destinys
 > Nesse arquivos temos os IDs das cidades e seus pontos turisticos.
 
 
