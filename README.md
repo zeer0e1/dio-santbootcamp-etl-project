@@ -1,21 +1,13 @@
 # Pipeline de ETL com Python
 
-### Esse repositório foi desenvolvido para um dos projetos do bootcamp Santander da DIO.
+Projeto prático desenvolvido como parte de um projeto do **Bootcamp Santander da DIO**. É um exercício de formação, não uma entrega profissional.
 
+## Objetivo
+Combinar dois arquivos CSV:
+- **Users**: usuários e os IDs das cidades para onde viajarão.
+- **Destinys**: IDs das cidades e pontos turísticos disponíveis.
 
-#### Projeto
+## Solução
+O script realiza a extração, transformação e combinação dos dados para associar cada usuário a uma cidade e a um ponto turístico. O resultado é salvo em [data/travelers.csv](data/travelers.csv), conforme os arquivos disponíveis neste repositório.
 
-O cliente possue 2 arquivos em formatos CSV e precisa que seja gerado um terceiro aquivo unindo esses arquivos.
-
-
-##### Users
-> Nesse arquivo temos os usuários e os IDs das cidades que eles vão viajar
-
-##### Destinys
-> Nesse arquivos temos os IDs das cidades e seus pontos turisticos.
-
-
-### Solução
-
-Após a ETL é gerado o arquivo [Travelers]('/data/travelers.csv') que é a junção dos dois arquivos anteriores unindo cada usuário com a cidade para onde está viajando e um ponto turistico daquela cidade.
-
+Este projeto registra prática inicial com ETL em Python e integração de dados tabulares.
